@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; 
+}
+
+.calculator-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    background-color: red;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.display {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    background-color: white;
+    width: 470px;
+    font-family: monospace;
+    text-align: right;
+    font-size: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.keypad {
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    width: 470px;
+    height: 445px;
+}
+
+.key {
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 30px;
+}
